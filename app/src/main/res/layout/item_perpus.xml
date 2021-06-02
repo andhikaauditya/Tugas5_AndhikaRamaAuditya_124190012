@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:elevation="1dp"
+        app:cardBackgroundColor="@color/tosca_tua">
+
+        <LinearLayout
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Institusi :"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv_itemnama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="4dp"
+                android:text="Nama Instusi"
+                android:textColor="@color/white"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Nama Pengunjung :"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_itempengunjung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="4dp"
+                android:text="Nama Pengunjung"
+                android:textColor="@color/white"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat :"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv_itemalamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="4dp"
+                android:text="Alamat Pengunjung"
+                android:textColor="@color/white"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID :"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv_itemid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="4dp"
+                android:text="ID"
+                android:textColor="@color/white"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
